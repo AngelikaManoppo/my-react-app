@@ -1,8 +1,13 @@
 //Pendekatan 1
 import React from 'react';
 
-const Greetings = () => {
-    return <h3> Ini adalah komponen yang baru</h3>
+const Greetings = ({ text, number }) => {
+    return (
+        <div>
+            <h1> {text}</h1>
+            <h2> {number}</h2>
+        </div>
+    );
 };
 
 export default Greetings
