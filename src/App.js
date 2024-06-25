@@ -3,7 +3,6 @@ import Greetings from "./Greetings";
 import Greeting2 from "./Greeting2";
 
 const App = () => {
-  const hello = "Hello World";
   const [hello, setHello] = useState("Hello World!!!");
   const handleClick = () => {
     setHello("Selamat Datang")
