@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Greetings from "./Greetings";
 import Greeting2 from "./Greeting2";
 
 const App = () => {
   const hello = "Hello World";
+  const [hello, setHello] = useState("Hello World!!!");
   const handleClick = () => {
-    console.log("Button Clicked");
+    setHello("Selamat Datang")
+    // console.log("Button Clicked");
   };
   return (
     //JSX -> hanya boleh punya 1 element atau parent/ <div>
